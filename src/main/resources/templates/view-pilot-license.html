@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+	<head>
+		<title>View Pilot by License</title>
+	</head>
+	<body>
+		<h3>Data Found!</h3>
+		<h3 th:text="'ID: ' + ${pilot.id}"></h3>
+		<h3 th:text="'License No: ' + ${pilot.licenseNumber}"></h3>
+		<h3 th:text="'Name: ' + ${pilot.name}"></h3>
+		<h3 th:text="'Fly Hour: ' + ${pilot.flyHour}"></h3>
+	</body>
+</html>
